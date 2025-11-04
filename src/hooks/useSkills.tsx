@@ -4,6 +4,8 @@ import { FaDocker, FaPython, FaStripe } from 'react-icons/fa';
 import { SiPytorch, SiScikitlearn } from 'react-icons/si';
 import { FiTriangle } from "react-icons/fi";
 import { FaImage } from "react-icons/fa";
+import { TbBrandCpp } from "react-icons/tb";
+
 
 import {
   TbBrandNextjs,
@@ -22,6 +24,10 @@ export type AllSkillsObjectType = {
 };
 
 export const allSkills: AllSkillsObjectType = {
+  cpp:{
+    name: 'C++',
+    icon: <TbBrandCpp />,
+  },
   fluxAImodel: {
     name: 'Flux AI Model',
     icon: <FaImage />,
