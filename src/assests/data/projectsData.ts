@@ -20,11 +20,26 @@ export type ProjectsObjectType = {
   [index: string]: ProjectDataType;
 };
 export const personalProjects: ProjectsObjectType = {
+  PixorAI: {
+    name: 'PixorAI: AI Photostudio for hyper realistic images',
+    des: 'PixorAI is an AI-powered photostudio that creates hyper realistic images of user by training model on selfie images of user.',
+    demo: 'https://pixorai.picaistudio.com/',
+    github: 'https://github.com/atharvf14t/pixorai',
+    image: '/images/projects/pixorai.png',
+    skills: [
+      allSkills.nextjs,
+      allSkills.typescript,
+      allSkills.nodejs,
+      allSkills.tailwindcss,
+      allSkills.prisma
+    ],
+    type: ProjectType.Personal,
+  },
   travelnest: {
     name: 'TravelNest: Marketplace for vacation stays and experiences',
     des: 'TravelNest is an online marketplace that lets people book short-term stays, unique homes, or experiences worldwide, while allowing hosts to earn money by renting out their spaces.',
     demo: 'https://travel-nest-one.vercel.app/',
-    github: 'https://github.com/atharv-asr-group/TravelNest',
+    github: 'https://github.com/atharvf14t/TravelNest',
     image: '/images/projects/travelnest.png',
     skills: [
       allSkills.nextjs,
@@ -38,8 +53,8 @@ export const personalProjects: ProjectsObjectType = {
   zapier: {
     name: 'Zapier: Automate Workflows',
     des: 'Zapier is a web-based service that allows users to automate workflows by connecting different apps and services. Users can create "Zaps" to trigger actions in one app based on events in another, streamlining their productivity and task management.',
-    demo: 'https://github.com/atharv-asr-group/zapier-c',
-    github: 'https://github.com/atharv-asr-group/zapier-c',
+    demo: 'https://github.com/atharvf14t/zapier-c',
+    github: 'https://github.com/atharvf14t/zapier-c',
     image: '/images/projects/zapier.png',
     skills: [
       allSkills.nextjs,
@@ -53,8 +68,8 @@ export const personalProjects: ProjectsObjectType = {
   portfoilio: {
     name: "Atharv Srivastava's Portfolio",
     des: 'Welcome to my portfolio! This website showcases my skills and projects as a Full Stack and AI systems Developer.',
-    demo: 'https://github.com/atharv-asr-group/',
-    github: 'https://github.com/atharv-asr-group/',
+    demo: 'https://github.com/atharvf14t/',
+    github: 'https://github.com/atharvf14t/',
     image: '/images/projects/atharvf14t.png',
 
     skills: [
@@ -72,8 +87,8 @@ export const opensourceProjects: ProjectsObjectType = {
   agentgpt: {
     name: 'AgentGPT',
     des: 'AgentGPT allows you to configure and deploy Autonomous AI agents. Name your own custom AI and have it embark on any goal imaginable. It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results.',
-    demo: 'https://github.com/atharv-asr-group/',
-    github: 'https://github.com/atharv-asr-group/',
+    demo: 'https://github.com/atharvf14t/',
+    github: 'https://github.com/atharvf14t/',
     image: '/images/projects/agentgpt.png',
     skills: [
       allSkills.nextjs,
@@ -90,7 +105,7 @@ export const freelanceProjects: ProjectsObjectType = {
     name: 'Guerdon Victor: PvP NFT Combat Game',
     des: "It's is one of the best skill based PvP NFT Combat Game based on new reward model K2E (Kill-to-Earn) which captures the essence of classic games like Tekken and Mortal Kombat. It is built on Binance Smart Chain Network and is developed in Unreal Engine. Here you can earn rewards based on your strategy, intellectual gameplay, and proper engagement. The game has made quite a fresh entry into the NFT gaming zone. The main idea behind the game development is entertainment and involvement of the gamers. To provide the gamers with the best combat gaming experiences, there will be new features added to the game periodically. So the players can remain engaged, and the game becomes even more interesting.",
     demo: 'https://guerdon-victorf-omega.vercel.app/',
-    github: 'https://github.com/atharv-asr-group/guerdonVictor',
+    github: 'https://github.com/atharvf14t/guerdonVictor',
     image: '/images/projects/guerdon-victor.png',
     skills: [
       allSkills.reactjs,
@@ -141,7 +156,7 @@ export const freelanceProjects: ProjectsObjectType = {
     name: 'DonPepe: New crypto token',
     des: 'Don Pepe is a new crypto token that is based on the famous meme coin Pepe. The project aims to create the first meme coin with an AI-powered exchange system. This exchange system will make it easier and more secure for people to buy, sell, and trade cryptocurrencies. The Don Pepe token will be used to power the exchange system and will also be used to reward users for participating in the community.',
     demo: 'https://www.donpepe-aii.com/',
-    github: 'https://github.com/atharv-asr-group/pepe-coin',
+    github: 'https://github.com/atharvf14t/pepe-coin',
     image: '/images/projects/donpepe.png',
     skills: [
       allSkills.nextjs,

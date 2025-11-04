@@ -22,7 +22,7 @@ export default function useSocialMediaLinks() {
       icon: <FaLinkedin />,
     },
     github: {
-      link: 'https://github.com/atharv-asr-group',
+      link: 'https://github.com/atharvf14t',
       icon: <FaGithub />,
     },
     twitter: {
