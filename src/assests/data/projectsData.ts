@@ -22,7 +22,7 @@ export type ProjectsObjectType = {
 export const personalProjects: ProjectsObjectType = {
   PixorAI: {
     name: 'PixorAI: AI Photostudio for hyper realistic images',
-    des: 'PixorAI is an AI-powered photostudio that creates hyper realistic images of user by training model on selfie images of user.',
+    des: 'PixorAI is an AI-powered photostudio that creates hyper realistic images of user by training model on selfie images.',
     demo: 'https://pixorai.picaistudio.com/',
     github: 'https://github.com/atharvf14t/pixorai',
     image: '/images/projects/pixorai.png',
