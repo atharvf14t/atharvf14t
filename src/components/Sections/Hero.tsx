@@ -14,7 +14,7 @@ export const HelloDetails = () => {
     <div>
       <h1 className="text_heading_size mt-10 py-5 text-center font-Monserrat  font-bold sm:mt-20">
         <span className="text-primary">Atharv Srivastava</span> <br />
-        Full Stack Developer
+        Full Stack AI Developer
       </h1>
       <div className="flex items-center justify-center gap-5 text-2xl sm:text-3xl xl:text-4xl 2xl:text-5xl">
         {renderSocialMediaLinks()}
