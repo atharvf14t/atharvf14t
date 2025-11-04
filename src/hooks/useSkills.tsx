@@ -24,6 +24,22 @@ export type AllSkillsObjectType = {
 };
 
 export const allSkills: AllSkillsObjectType = {
+  typescript: {
+    name: 'Typescript',
+    icon: <BiLogoTypescript />,
+  },
+  tailwindcss: {
+    name: 'TailwindCss',
+    icon: <TbBrandTailwind />,
+  },
+  docker: {
+    name: 'Docker',
+    icon: <FaDocker />,
+  },
+  python: {
+    name: 'Python',
+    icon: <FaPython />,
+  },
   cpp:{
     name: 'C++',
     icon: <TbBrandCpp />,
@@ -51,22 +67,6 @@ export const allSkills: AllSkillsObjectType = {
   javascript: {
     name: 'JavaScript',
     icon: <BiLogoJavascript />,
-  },
-  typescript: {
-    name: 'Typescript',
-    icon: <BiLogoTypescript />,
-  },
-  tailwindcss: {
-    name: 'TailwindCss',
-    icon: <TbBrandTailwind />,
-  },
-  docker: {
-    name: 'Docker',
-    icon: <FaDocker />,
-  },
-  python: {
-    name: 'Python',
-    icon: <FaPython />,
   },
   pytorch: {
     name: 'Pytorch',
