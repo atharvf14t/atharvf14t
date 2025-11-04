@@ -1,8 +1,9 @@
 import React, { ReactNode } from 'react';
 import { BiLogoJavascript, BiLogoTypescript } from 'react-icons/bi';
-import { FaDocker, FaPython } from 'react-icons/fa';
+import { FaDocker, FaPython, FaStripe } from 'react-icons/fa';
 import { SiPytorch, SiScikitlearn } from 'react-icons/si';
 import { FiTriangle } from "react-icons/fi";
+import { FaImage } from "react-icons/fa";
 
 import {
   TbBrandNextjs,
@@ -21,6 +22,14 @@ export type AllSkillsObjectType = {
 };
 
 export const allSkills: AllSkillsObjectType = {
+  fluxAImodel: {
+    name: 'Flux AI Model',
+    icon: <FaImage />,
+  },
+  paymentIntegration: {
+    name: 'Stripe Integration',
+    icon: <FaStripe />,
+  },
   reactjs: {
     name: 'ReactJs',
     icon: <TbBrandReact />,

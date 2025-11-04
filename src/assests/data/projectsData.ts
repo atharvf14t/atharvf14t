@@ -27,11 +27,12 @@ export const personalProjects: ProjectsObjectType = {
     github: 'https://github.com/atharvf14t/pixorai',
     image: '/images/projects/pixorai.png',
     skills: [
+      allSkills.fluxAImodel,
+      allSkills.paymentIntegration,
       allSkills.nextjs,
       allSkills.typescript,
       allSkills.nodejs,
       allSkills.tailwindcss,
-      allSkills.prisma
     ],
     type: ProjectType.Personal,
   },
